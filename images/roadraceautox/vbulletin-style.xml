@@ -1,0 +1,442 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<style name="RoadRaceAutox" vbversion="4.2.0" product="vbulletin" type="custom">
+	<templategroup name="Ungrouped Templates {1}">
+		<template name="additional.css" templatetype="template" date="1338557103" username="andreas" version="4.2.0"><![CDATA[.forumbits .forumbit_nopost .forumhead .forumrowdata .subforumdescription { padding-left:10px; }
+.forumbits .forumbit_nopost .forumhead { background-color:#E0E0E0; background-image:none; }
+
+
+.postbit .postbody { background-color:#FAFAFA; }
+#sidebar_container.member_summary { background-color:#f1f1f1 !important; }
+
+.pagination span a:hover { border-color:#484848; }
+
+.toplinks ul.isuser li a:hover { background-color:#4D4D4D; }
+.toplinks .notifications a.popupctrl:hover, .toplinks .nonotifications a.popupctrl:hover, .toplinks .nonotifications a.popupctrl.active , .toplinks .notifications a.popupctrl.active{ background-color:#4D4D4D; }
+
+#searchtypeswitcher {
+	border-bottom:4px solid #494949;
+}
+
+#searchtypeswitcher li a {
+	background-color:#c5c5c5;
+	color:#FFF;
+}
+
+#searchtypeswitcher li.selected a {
+	background-color:#494949;
+}
+
+#searchtypeswitcher li a:hover {
+	background-color:#494949;
+}
+#foldercontrols .totals .thisfolder {
+	background-color:#cecece;
+}
+
+#foldercontrols .totals .allfolders {
+	background-color:#a7a7a7;
+}
+
+#foldercontrols .totals .quota {
+	background-color:#878787;
+}
+
+.doc_header {
+height:102px;
+}
+
+.toplinks ul.nouser li a{
+	color:{vb:stylevar toplinks_link_color};
+	background: #878787;
+}
+
+.toplinks ul.nouser li a:hover {
+	background: #878787;
+	color:{vb:stylevar toplinks_linkhover_color};
+}
+
+.toplinks .logindetails {
+	background: #878787;
+}
+
+.body_wrapper {
+border:3px solid #e8e8e8;
+border-top:none;
+border-bottom:none;
+}
+
+.subforumdescription {color:#000;}
+
+.navtabs ul { 
+background-image:url(images/roadraceautox/elements/navtab.jpg);
+background-repeat:repeat-x;
+}
+#fb_headerbox { background:none; }
+
+
+
+img.sgicon {
+background: #FFFFFF;
+}
+
+.postbit.postbit-lite {
+	border:1px solid #D8D9DA;
+}
+
+#sidebar_container a { color:#484848 !important; }
+#sidebar_container a:hover { color:#484848 !important; }
+#sidebar_container.member_summary .textcontrol { color:#484848 !important; }
+#sidebar_container .blocksubhead { color:#484848 !important; }
+.userprof_button { background-image:none !important; color:#484848 !important; border:1px solid #D8D9DA !important; }
+.memberprofiletabunder { background-color:#484848 !important; }
+.postbit.postbit-lite.postcontainer.userprof { border:1px solid #D8D9DA !important; }
+
+dl.tabslight dd.userprof_module a:hover { color:#D8D9DA !important; }
+dl.tabslight dd.userprof_moduleinactive a:hover { color:#D8D9DA !important;}
+
+dl.tabslight dd.userprof_module:hover { background-color:#484848 !important;}
+dl.tabslight dd.userprof_moduleinactive:hover { background-color:#484848 !important;}
+
+dl.tabslight dd.userprof_moduleinactive { border:1px solid #D8D9DA !important; border-bottom:none !important; }
+dl.tabslight dd.userprof_module { border:1px solid #D8D9DA !important; border-bottom:none !important; }
+
+dl.tabslight dd.userprof_moduleinactive a { color:#484848 !important; }
+dl.tabslight dd.userprof_module a { color:#fff !important;}
+
+.toplinks ul.isuser .notifications .popupbody { background-color:#878787 !important; background-image:none !important; }
+li.welcomelink { color:#fff !important; }
+
+.toplinks ul.isuser li.popupmenu ul li {color:#fff; }
+
+div#sidebar_container > h6.actionbutton_container > a.pagetitleinfo.textcontrol {color:#fff !important; }
+
+.userprof_headers { background-color:#cecece !important; }
+.userprof_moduleinactive { background-image:none !important; }
+
+.toplinks { background-color:transparent; }
+
+.userprof_headers a { color:#000!important; }
+
+.forumbit_nopost .forumhead .forumtitle a { color:#fff; }
+
+#pagetitle { border-color: #D8D9DA; }
+
+.header, .article_title { color: #484848;
+border-top: 4px solid #D8D9DA; }
+
+.main_menuitem, .active_menuitem {color:#424242; }
+.vb-tree-menu .ygtvitem a {color:#424242; }
+.main_menuitem a, .active_menuitem a {color:#424242; }
+
+.main_menuitem a:hover, .active_menuitem a:hover { color:#424242!important; }
+.main_menuitem:hover, .active_menuitem:hover { color:#424242!important; }
+.vb-tree-menu:hover .ygtvitem a:hover { color:#424242!important; }
+.vb-tree-menu .ygtvitem a.ygtvlabel:hover { color:#424242!important; }
+
+.main_menuitem a:hover, .active_menuitem a:hover { background-color:#cecece!important; }
+.main_menuitem:hover, .active_menuitem:hover { background-color:#cecece!important; }
+tr.ygtvrow:hover td { background-color:#cecece!important; }
+tr.ygtvrow:hover td.ygtvcontent { background-color:#cecece!important; }
+.vb-tree-menu .activeVBMenuItem { background-color:#cecece!important; }
+
+.vb-tree-menu .activeVBMenuItem > .active .ygtvlabel, .vb-tree-menu .activeVBMenuItem > .active .ygtvlabel:link, .vb-tree-menu .activeVBMenuItem > .active .ygtvlabel:visited, .vb-tree-menu .activeVBMenuItem > .active .ygtvlabel:hover { background-color: #cecece; }
+
+.widget_content { background: url("images/misc/blog/gradient-black-down.png") repeat-x scroll 0 0 #f5f5f5; }
+
+.toplinks ul.nouser li a:hover { background-color: #777!important; }
+
+li.activitybit a { color: #5F5F5F; }
+li.activitybit a:hover { color: #5F5F5F; }
+.activitystream .popupbody span.selected { color: #5F5F5F; }
+#activity_tab_container > div { background-color: #fff; }]]></template>
+		<template name="footer" templatetype="template" date="1336396762" username="andreas" version="4.1.12"><![CDATA[<vb:if condition="!empty($ad_location['ad_footer_start']) or !empty($ad_location['global_above_footer'])">
+<div style="clear: {vb:stylevar left}">
+  {vb:raw ad_location.ad_footer_start}
+  {vb:raw ad_location.global_above_footer}
+</div>
+</vb:if>
+<div id="footer" class="floatcontainer footer">
+
+	<form action="{vb:link forumhome|nosession}" method="get" id="footer_select" class="footer_select">
+
+		<vb:if condition="$show['quickchooser']">
+			<select name="styleid" onchange="switch_id(this, 'style')">
+				<optgroup label="{vb:rawphrase quick_style_chooser}"><option class="hidden"></option></optgroup>
+				<vb:if condition="$quickchooserbits1">
+					<vb:if condition="$quickchooserbits2">
+					<optgroup label="&nbsp;{vb:rawphrase standard_styles}">
+					</vb:if>				
+					{vb:raw quickchooserbits1}
+					<vb:if condition="$quickchooserbits2">
+					</optgroup>
+					</vb:if>					
+				</vb:if>
+				<vb:if condition="$quickchooserbits2">
+					<vb:if condition="$quickchooserbits1">
+					<optgroup label="&nbsp;{vb:rawphrase mobile_styles}">
+					</vb:if>
+					{vb:raw quickchooserbits2}
+					<vb:if condition="$quickchooserbits1">
+					</optgroup>
+					</vb:if>					
+				</vb:if>
+			</select>	
+		</vb:if>
+		
+		<vb:if condition="$show['languagechooser']">
+			<select name="langid" onchange="switch_id(this, 'lang')">
+				<optgroup label="{vb:rawphrase quick_language_chooser}">
+					{vb:raw languagechooserbits}
+				</optgroup>
+			</select>
+		</vb:if>
+	</form>
+
+	<ul id="footer_links" class="footer_links">
+		<vb:if condition="$show['contactus']"><li><a href="{vb:raw vboptions.contactuslink}" rel="nofollow" accesskey="9">{vb:rawphrase contact_us}</a></li></vb:if>
+		<vb:if condition="$vboptions['hometitle']"><li><a href="{vb:raw vboptions.homeurl}">{vb:raw vboptions.hometitle}</a></li></vb:if>
+		<vb:if condition="$show['admincplink']"><li><a href="{vb:raw admincpdir}/index.php{vb:raw session.sessionurl_q}">{vb:rawphrase admin}</a></li></vb:if>
+		<vb:if condition="$show['modcplink']"><li><a href="{vb:raw modcpdir}/index.php{vb:raw session.sessionurl_q}">{vb:rawphrase mod}</a></li></vb:if>
+		<vb:if condition="$vboptions['archiveenabled']"><li><a href="archive/index.php{vb:raw session.sessionurl_q}">{vb:rawphrase archive}</a></li></vb:if>
+		{vb:raw template_hook.footer_links}
+		<vb:if condition="$vboptions['privacyurl']"><li><a href="{vb:raw vboptions.privacyurl}">{vb:rawphrase privacy_statement}</a></li></vb:if>
+		<vb:if condition="$vboptions['tosurl']"><li><a href="{vb:raw vboptions.tosurl}">{vb:rawphrase terms_of_service}</a></li></vb:if>
+		<li><a href="{vb:raw relpath}#top" onclick="document.location.hash='top'; return false;">{vb:rawphrase top}</a></li>
+	</ul>
+	
+	
+	<vb:if condition="$show['dst_correction']">
+	<!-- auto DST correction code -->
+		<form action="profile.php?do=dst" method="post" name="dstform">
+			<input type="hidden" name="s" value="{vb:raw session.sessionhash}" />
+			<input type="hidden" name="securitytoken" value="{vb:raw bbuserinfo.securitytoken}" />
+			<input type="hidden" name="do" value="dst" />
+		</form>
+		<script type="text/javascript">
+		<!--
+			var tzOffset = {vb:raw bbuserinfo.timezoneoffset} + {vb:raw bbuserinfo.dstonoff};
+			var utcOffset = new Date().getTimezoneOffset() / 60;
+			if (Math.abs(tzOffset + utcOffset) == 1)
+			{	// Dst offset is 1 so its changed
+				document.forms.dstform.submit();
+			}
+		//-->
+		</script>
+		<!-- / auto DST correction code -->
+	</vb:if>
+	
+	<script type="text/javascript">
+	<!--
+		// Main vBulletin Javascript Initialization
+		vBulletin_init();
+	//-->
+	</script>
+        {vb:raw template_hook.footer_javascript}
+</div>
+<div class="below_body">
+<div id="footer_time" class="shade footer_time">{vb:rawphrase all_times_are_gmt_x_time_now_is_y}</div>
+
+<div id="footer_copyright" class="shade footer_copyright">
+<a href="http://www.webandart.gr/templates" target="_blank">vBulletin Skins &amp; Themes</a> | <a href="http://www.webandart.gr" target="_blank">&#922;&#945;&#964;&#945;&#963;&#954;&#949;&#965;&#942; &#921;&#963;&#964;&#959;&#963;&#949;&#955;&#943;&#948;&#969;&#957; Web and Art Solutions</a>
+<br />
+	<!-- Do not remove this copyright notice -->
+	{vb:rawphrase powered_by_vbulletin}
+	<!-- Do not remove this copyright notice -->	
+</div>
+<div id="footer_morecopyright" class="shade footer_morecopyright">
+	<!-- Do not remove cronimage or your scheduled tasks will cease to function -->
+	{vb:raw cronimage}
+	<!-- Do not remove cronimage or your scheduled tasks will cease to function -->
+	{vb:raw vboptions.copyrighttext}
+	{vb:raw template_hook.footer_copyright}
+</div>
+{vb:raw ad_location.ad_footer_end} 
+<vb:if condition="$vboptions['enablefacebookconnect']">
+	{vb:raw facebook_footer}
+</vb:if>
+</div>
+</div> <!-- closing div for body_wrapper -->
+
+]]></template>
+	</templategroup>
+	<stylevardfns>
+	</stylevardfns>
+	<stylevars>
+		<stylevar name="albumedit_blockrow_border" value="YTo0OntzOjU6InVuaXRzIjtzOjI6InB4IjtzOjU6IndpZHRoIjtzOjE6IjEiO3M6NToic3R5bGUiO3M6NToic29saWQiO3M6NToiY29sb3IiO3M6NzoiI2Q4ZDlkYSI7fQ==" />
+		<stylevar name="albumedit_maineditor_background" value="YTo2OntzOjU6InVuaXRzIjtzOjA6IiI7czo1OiJjb2xvciI7czoxODoicmdiKDI1NSwgMjU1LCAyNTUpIjtzOjU6ImltYWdlIjtzOjA6IiI7czo2OiJyZXBlYXQiO3M6MDoiIjtzOjE6IngiO3M6MDoiIjtzOjE6InkiO3M6MDoiIjt9" />
+		<stylevar name="albumedit_maineditor_border" value="YTo0OntzOjU6InVuaXRzIjtzOjI6InB4IjtzOjU6IndpZHRoIjtzOjE6IjEiO3M6NToic3R5bGUiO3M6NToic29saWQiO3M6NToiY29sb3IiO3M6NzoiI2Q4ZDlkYSI7fQ==" />
+		<stylevar name="albumlist_blockbody_background" value="YTo2OntzOjU6InVuaXRzIjtzOjA6IiI7czo1OiJjb2xvciI7czoxODoicmdiKDI1NSwgMjU1LCAyNTUpIjtzOjU6ImltYWdlIjtzOjA6IiI7czo2OiJyZXBlYXQiO3M6MDoiIjtzOjE6IngiO3M6MDoiIjtzOjE6InkiO3M6MDoiIjt9" />
+		<stylevar name="albumlist_image_shadow_color" value="YToxOntzOjU6ImNvbG9yIjtzOjc6IiM0ODQ4NDgiO30=" />
+		<stylevar name="announcement_background" value="YTo2OntzOjU6InVuaXRzIjtzOjA6IiI7czo1OiJjb2xvciI7czo3OiIjZTllOWU5IjtzOjU6ImltYWdlIjtzOjA6IiI7czo2OiJyZXBlYXQiO3M6MDoiIjtzOjE6IngiO3M6MDoiIjtzOjE6InkiO3M6MDoiIjt9" />
+		<stylevar name="assetmanager_attachment_background_selected" value="YTo2OntzOjU6InVuaXRzIjtzOjA6IiI7czo1OiJjb2xvciI7czoxODoicmdiKDIwNCwgMjA0LCAyMDQpIjtzOjU6ImltYWdlIjtzOjA6IiI7czo2OiJyZXBlYXQiO3M6MDoiIjtzOjE6IngiO3M6MDoiIjtzOjE6InkiO3M6MDoiIjt9" />
+		<stylevar name="assetmanager_border" value="YTo0OntzOjU6InVuaXRzIjtzOjI6InB4IjtzOjU6IndpZHRoIjtzOjE6IjEiO3M6NToic3R5bGUiO3M6NToic29saWQiO3M6NToiY29sb3IiO3M6MTg6InJnYigxNTMsIDE1MywgMTUzKSI7fQ==" />
+		<stylevar name="assetmanager_panel_header_background" value="YTo2OntzOjU6InVuaXRzIjtzOjA6IiI7czo1OiJjb2xvciI7czoxODoicmdiKDE1MywgMTUzLCAxNTMpIjtzOjU6ImltYWdlIjtzOjM3OiJ1cmwoaW1hZ2VzL2J1dHRvbnMvbmV3YnRuX21pZGRsZS5wbmcpIjtzOjY6InJlcGVhdCI7czo4OiJyZXBlYXQteCI7czoxOiJ4IjtzOjA6IiI7czoxOiJ5IjtzOjA6IiI7fQ==" />
+		<stylevar name="assetmanager_resize_background" value="YTo2OntzOjU6InVuaXRzIjtzOjA6IiI7czo1OiJjb2xvciI7czoxODoicmdiKDIzNSwgMjM1LCAyMzUpIjtzOjU6ImltYWdlIjtzOjA6IiI7czo2OiJyZXBlYXQiO3M6MDoiIjtzOjE6IngiO3M6MDoiIjtzOjE6InkiO3M6MDoiIjt9" />
+		<stylevar name="attachment_box_background" value="YTo2OntzOjU6InVuaXRzIjtzOjA6IiI7czo1OiJjb2xvciI7czo3OiIjZTllOWU5IjtzOjU6ImltYWdlIjtzOjA6IiI7czo2OiJyZXBlYXQiO3M6MDoiIjtzOjE6IngiO3M6MDoiIjtzOjE6InkiO3M6MDoiIjt9" />
+		<stylevar name="attachment_box_border" value="YTo0OntzOjU6InVuaXRzIjtzOjI6InB4IjtzOjU6IndpZHRoIjtzOjE6IjEiO3M6NToic3R5bGUiO3M6NToic29saWQiO3M6NToiY29sb3IiO3M6NzoiI2Q4ZDlkYSI7fQ==" />
+		<stylevar name="bbcode_code_background" value="YTo2OntzOjU6InVuaXRzIjtzOjA6IiI7czo1OiJjb2xvciI7czoxODoicmdiKDI1NSwgMjU1LCAyNTUpIjtzOjU6ImltYWdlIjtzOjA6IiI7czo2OiJyZXBlYXQiO3M6MDoiIjtzOjE6IngiO3M6MDoiIjtzOjE6InkiO3M6MDoiIjt9" />
+		<stylevar name="bbcode_quote_background" value="YTo2OntzOjU6InVuaXRzIjtzOjA6IiI7czo1OiJjb2xvciI7czoxODoicmdiKDI1NSwgMjU1LCAyNTUpIjtzOjU6ImltYWdlIjtzOjA6IiI7czo2OiJyZXBlYXQiO3M6MDoiIjtzOjE6IngiO3M6MDoiIjtzOjE6InkiO3M6MDoiIjt9" />
+		<stylevar name="bbcode_quote_border" value="YTo0OntzOjU6InVuaXRzIjtzOjI6InB4IjtzOjU6IndpZHRoIjtzOjE6IjEiO3M6NToic3R5bGUiO3M6NToic29saWQiO3M6NToiY29sb3IiO3M6NzoiI2Q4ZDlkYSI7fQ==" />
+		<stylevar name="bbcode_table_border" value="YTo0OntzOjU6ImNvbG9yIjtzOjc6IiNkOGQ5ZGEiO3M6NToid2lkdGgiO3M6MToiMyI7czo1OiJ1bml0cyI7czoyOiJweCI7czo1OiJzdHlsZSI7czo1OiJzb2xpZCI7fQ==" />
+		<stylevar name="blockfoot_border" value="YTo0OntzOjU6InVuaXRzIjtzOjA6IiI7czo1OiJ3aWR0aCI7czoxOiIwIjtzOjU6InN0eWxlIjtzOjA6IiI7czo1OiJjb2xvciI7czo3OiIjZDhkOWRhIjt9" />
+		<stylevar name="blockhead_background" value="YTo2OntzOjU6InVuaXRzIjtzOjA6IiI7czo1OiJjb2xvciI7czoxMToidHJhbnNwYXJlbnQiO3M6NToiaW1hZ2UiO3M6NTA6InVybChpbWFnZXMvQml0dGVuRnJ1aXRfZmx1aWQvZWxlbWVudHMvaGVhZGluZy5qcGcpIjtzOjY6InJlcGVhdCI7czo4OiJyZXBlYXQteCI7czoxOiJ4IjtzOjA6IiI7czoxOiJ5IjtzOjA6IiI7fQ==" />
+		<stylevar name="blockhead_border" value="YTo0OntzOjU6InVuaXRzIjtzOjI6InB4IjtzOjU6IndpZHRoIjtzOjE6IjEiO3M6NToic3R5bGUiO3M6NToic29saWQiO3M6NToiY29sb3IiO3M6NzoiI2M1YzVjNSI7fQ==" />
+		<stylevar name="blocksubhead_color" value="YToxOntzOjU6ImNvbG9yIjtzOjc6IiM0ODQ4NDgiO30=" />
+		<stylevar name="blocksubhead_link_color" value="YToxOntzOjU6ImNvbG9yIjtzOjc6IiM1ZjVmNWYiO30=" />
+		<stylevar name="blocksubhead_linkhover_color" value="YToxOntzOjU6ImNvbG9yIjtzOjc6IiM1ZjVmNWYiO30=" />
+		<stylevar name="body_color" value="YToxOntzOjU6ImNvbG9yIjtzOjc6IiM0ODQ4NDgiO30=" />
+		<stylevar name="body_padding" value="YTo2OntzOjU6InVuaXRzIjtzOjI6InB4IjtzOjM6InRvcCI7czoyOiIxMCI7czo1OiJyaWdodCI7czoyOiIyMCI7czo2OiJib3R0b20iO3M6MjoiMTAiO3M6NDoibGVmdCI7czoyOiIyMCI7czo0OiJzYW1lIjtzOjE6IjAiO30=" />
+		<stylevar name="calendar_events_a_daynum_color" value="YToxOntzOjU6ImNvbG9yIjtzOjc6IiM0ODQ4NDgiO30=" />
+		<stylevar name="calendar_events_a_daynum_color_hover" value="YToxOntzOjU6ImNvbG9yIjtzOjc6IiM4YzhjOGMiO30=" />
+		<stylevar name="calendar_events_border" value="YTo0OntzOjU6InVuaXRzIjtzOjI6InB4IjtzOjU6IndpZHRoIjtzOjE6IjEiO3M6NToic3R5bGUiO3M6NToic29saWQiO3M6NToiY29sb3IiO3M6NzoiI2Q4ZDlkYSI7fQ==" />
+		<stylevar name="calendar_mini_othermonth_a_border" value="YTo0OntzOjU6InVuaXRzIjtzOjI6InB4IjtzOjU6IndpZHRoIjtzOjE6IjEiO3M6NToic3R5bGUiO3M6NToic29saWQiO3M6NToiY29sb3IiO3M6NzoiI2Q4ZDlkYSI7fQ==" />
+		<stylevar name="calendar_othermonth_a_color" value="YToxOntzOjU6ImNvbG9yIjtzOjc6IiNjNWM1YzUiO30=" />
+		<stylevar name="calendar_othermonth_background_color" value="YTo2OntzOjU6InVuaXRzIjtzOjA6IiI7czo1OiJjb2xvciI7czoxODoicmdiKDI1NSwgMjU1LCAyNTUpIjtzOjU6ImltYWdlIjtzOjA6IiI7czo2OiJyZXBlYXQiO3M6MDoiIjtzOjE6IngiO3M6MDoiIjtzOjE6InkiO3M6MDoiIjt9" />
+		<stylevar name="calendar_today_border_color" value="YToxOntzOjU6ImNvbG9yIjtzOjc6IiNkOGQ5ZGEiO30=" />
+		<stylevar name="calendar_week_daynum_font_color" value="YToxOntzOjU6ImNvbG9yIjtzOjc6IiM0ODQ4NDgiO30=" />
+		<stylevar name="calendar_week_eventlist_birthdays_background" value="YTo2OntzOjU6InVuaXRzIjtzOjA6IiI7czo1OiJjb2xvciI7czo3OiIjZTllOWU5IjtzOjU6ImltYWdlIjtzOjA6IiI7czo2OiJyZXBlYXQiO3M6MDoiIjtzOjE6IngiO3M6MDoiIjtzOjE6InkiO3M6MDoiIjt9" />
+		<stylevar name="calendar_week_eventlist_birthdays_border" value="YTo0OntzOjU6InVuaXRzIjtzOjI6InB4IjtzOjU6IndpZHRoIjtzOjE6IjIiO3M6NToic3R5bGUiO3M6NToic29saWQiO3M6NToiY29sb3IiO3M6NzoiI2Q4ZDlkYSI7fQ==" />
+		<stylevar name="control_border" value="YTo0OntzOjU6InVuaXRzIjtzOjI6InB4IjtzOjU6IndpZHRoIjtzOjE6IjEiO3M6NToic3R5bGUiO3M6NToic29saWQiO3M6NToiY29sb3IiO3M6NzoiI2Q4ZDlkYSI7fQ==" />
+		<stylevar name="control_color" value="YToxOntzOjU6ImNvbG9yIjtzOjc6IiM0ODQ4NDgiO30=" />
+		<stylevar name="control_content_background" value="YTo2OntzOjU6InVuaXRzIjtzOjA6IiI7czo1OiJjb2xvciI7czo3OiIjNGQ0YzRkIjtzOjU6ImltYWdlIjtzOjM3OiJ1cmwoaW1hZ2VzL2J1dHRvbnMvbmV3YnRuX21pZGRsZS5wbmcpIjtzOjY6InJlcGVhdCI7czo4OiJyZXBlYXQteCI7czoxOiJ4IjtzOjQ6ImxlZnQiO3M6MToieSI7czozOiJ0b3AiO30=" />
+		<stylevar name="control_content_hover_background" value="YTo2OntzOjU6InVuaXRzIjtzOjA6IiI7czo1OiJjb2xvciI7czo3OiIjNWQ1ZDVkIjtzOjU6ImltYWdlIjtzOjM3OiJ1cmwoaW1hZ2VzL2J1dHRvbnMvbmV3YnRuX21pZGRsZS5wbmcpIjtzOjY6InJlcGVhdCI7czo4OiJyZXBlYXQteCI7czoxOiJ4IjtzOjQ6ImxlZnQiO3M6MToieSI7czozOiJ0b3AiO30=" />
+		<stylevar name="control_content_shadow_color" value="YToxOntzOjU6ImNvbG9yIjtzOjc6IiNkOGQ5ZGEiO30=" />
+		<stylevar name="control_hover_background" value="YTo2OntzOjU6InVuaXRzIjtzOjA6IiI7czo1OiJjb2xvciI7czoxODoicmdiKDI1NSwgMjU1LCAyNTUpIjtzOjU6ImltYWdlIjtzOjQwOiJ1cmwoaW1hZ2VzL2dyYWRpZW50cy9nZW5lcmljX2J1dHRvbi5wbmcpIjtzOjY6InJlcGVhdCI7czo4OiJyZXBlYXQteCI7czoxOiJ4IjtzOjA6IiI7czoxOiJ5IjtzOjA6IiI7fQ==" />
+		<stylevar name="control_hover_color" value="YToxOntzOjU6ImNvbG9yIjtzOjc6IiM0ODQ4NDgiO30=" />
+		<stylevar name="diff_add_background" value="YTo2OntzOjU6InVuaXRzIjtzOjA6IiI7czo1OiJjb2xvciI7czo3OiIjZTllOWU5IjtzOjU6ImltYWdlIjtzOjA6IiI7czo2OiJyZXBlYXQiO3M6MDoiIjtzOjE6IngiO3M6MDoiIjtzOjE6InkiO3M6MDoiIjt9" />
+		<stylevar name="diff_remove_background" value="YTo2OntzOjU6InVuaXRzIjtzOjA6IiI7czo1OiJjb2xvciI7czo3OiIjYzVjNWM1IjtzOjU6ImltYWdlIjtzOjA6IiI7czo2OiJyZXBlYXQiO3M6MDoiIjtzOjE6IngiO3M6MDoiIjtzOjE6InkiO3M6MDoiIjt9" />
+		<stylevar name="doc_background" value="YTo2OntzOjU6InVuaXRzIjtzOjA6IiI7czo1OiJjb2xvciI7czo3OiIjZjdmN2Y3IjtzOjU6ImltYWdlIjtzOjA6IiI7czo2OiJyZXBlYXQiO3M6MDoiIjtzOjE6IngiO3M6MDoiIjtzOjE6InkiO3M6MDoiIjt9" />
+		<stylevar name="editor_button_background_hover" value="YToxOntzOjU6ImNvbG9yIjtzOjE4OiJyZ2IoMjM1LCAyMzUsIDIzNSkiO30=" />
+		<stylevar name="editor_button_disabled_opacity" value="YToxOntzOjY6InN0cmluZyI7czoyOiIuMyI7fQ==" />
+		<stylevar name="editor_button_enabled_opacity" value="YToxOntzOjY6InN0cmluZyI7czoyOiIuNyI7fQ==" />
+		<stylevar name="editor_button_selected_background" value="YToxOntzOjU6ImNvbG9yIjtzOjE4OiJyZ2IoMTUzLCAxNTMsIDE1MykiO30=" />
+		<stylevar name="editor_button_selected_background_hover" value="YToxOntzOjU6ImNvbG9yIjtzOjE4OiJyZ2IoMjA0LCAyMDQsIDIwNCkiO30=" />
+		<stylevar name="editor_popupbody_color" value="YToxOntzOjU6ImNvbG9yIjtzOjEyOiJyZ2IoMCwgMCwgMCkiO30=" />
+		<stylevar name="editor_popupbody_frame_color" value="YToxOntzOjU6ImNvbG9yIjtzOjEyOiJyZ2IoMCwgMCwgMCkiO30=" />
+		<stylevar name="editor_popupbody_tab_color_hover" value="YToxOntzOjU6ImNvbG9yIjtzOjEyOiJyZ2IoMCwgMCwgMCkiO30=" />
+		<stylevar name="editor_text_color" value="YToxOntzOjU6ImNvbG9yIjtzOjEyOiJyZ2IoMCwgMCwgMCkiO30=" />
+		<stylevar name="eventbit_dl_customfield_color" value="YToxOntzOjU6ImNvbG9yIjtzOjc6IiM0ODQ4NDgiO30=" />
+		<stylevar name="footer_background" value="YTo2OntzOjU6InVuaXRzIjtzOjA6IiI7czo1OiJjb2xvciI7czo3OiIjZjBmMGYwIjtzOjU6ImltYWdlIjtzOjA6IiI7czo2OiJyZXBlYXQiO3M6MDoiIjtzOjE6IngiO3M6MDoiIjtzOjE6InkiO3M6MDoiIjt9" />
+		<stylevar name="footer_border" value="YTo0OntzOjU6InVuaXRzIjtzOjI6InB4IjtzOjU6IndpZHRoIjtzOjE6IjEiO3M6NToic3R5bGUiO3M6NToic29saWQiO3M6NToiY29sb3IiO3M6NzoiI2QyZDJkMiI7fQ==" />
+		<stylevar name="footer_copyright_color" value="YToxOntzOjU6ImNvbG9yIjtzOjc6IiM0ODQ4NDgiO30=" />
+		<stylevar name="footer_link_color" value="YToxOntzOjU6ImNvbG9yIjtzOjc6IiM0ODQ4NDgiO30=" />
+		<stylevar name="footer_linkhover_color" value="YToxOntzOjU6ImNvbG9yIjtzOjc6IiM0ODQ4NDgiO30=" />
+		<stylevar name="footer_moz_shadow_color" value="YToxOntzOjU6ImNvbG9yIjtzOjc6IiNkMmQyZDIiO30=" />
+		<stylevar name="footer_time_color" value="YToxOntzOjU6ImNvbG9yIjtzOjc6IiM0ODQ4NDgiO30=" />
+		<stylevar name="formrow_border" value="YTo0OntzOjU6InVuaXRzIjtzOjI6InB4IjtzOjU6IndpZHRoIjtzOjE6IjEiO3M6NToic3R5bGUiO3M6NToic29saWQiO3M6NToiY29sb3IiO3M6NzoiI2Q4ZDlkYSI7fQ==" />
+		<stylevar name="forumbits_border" value="YTo0OntzOjU6InVuaXRzIjtzOjI6InB4IjtzOjU6IndpZHRoIjtzOjE6IjEiO3M6NToic3R5bGUiO3M6NToic29saWQiO3M6NToiY29sb3IiO3M6NzoiI2Q4ZDlkYSI7fQ==" />
+		<stylevar name="forumbits_shadow_color" value="YToxOntzOjU6ImNvbG9yIjtzOjc6IiNkOGQ5ZGEiO30=" />
+		<stylevar name="forumbits_text_color" value="YToxOntzOjU6ImNvbG9yIjtzOjc6IiM1ZjVmNWYiO30=" />
+		<stylevar name="forumhead_background" value="YTo2OntzOjU6InVuaXRzIjtzOjA6IiI7czo1OiJjb2xvciI7czoxMToidHJhbnNwYXJlbnQiO3M6NToiaW1hZ2UiO3M6NTA6InVybChpbWFnZXMvQml0dGVuRnJ1aXRfZmx1aWQvZWxlbWVudHMvaGVhZGluZy5qcGcpIjtzOjY6InJlcGVhdCI7czo4OiJyZXBlYXQteCI7czoxOiJ4IjtzOjA6IiI7czoxOiJ5IjtzOjA6IiI7fQ==" />
+		<stylevar name="forumhead_border" value="YTo0OntzOjU6InVuaXRzIjtzOjI6InB4IjtzOjU6IndpZHRoIjtzOjE6IjEiO3M6NToic3R5bGUiO3M6NToic29saWQiO3M6NToiY29sb3IiO3M6NzoiI2M1YzVjNSI7fQ==" />
+		<stylevar name="forumhead_color" value="YToxOntzOjU6ImNvbG9yIjtzOjE4OiJyZ2IoMjU1LCAyNTUsIDI1NSkiO30=" />
+		<stylevar name="general_hilite_color" value="YToxOntzOjU6ImNvbG9yIjtzOjc6IiNlM2UzZTMiO30=" />
+		<stylevar name="groups_row_background" value="YTo2OntzOjU6InVuaXRzIjtzOjA6IiI7czo1OiJjb2xvciI7czoxODoicmdiKDI1NSwgMjU1LCAyNTUpIjtzOjU6ImltYWdlIjtzOjMzOiJ1cmwoaW1hZ2VzL2dyYWRpZW50cy9ncmV5LXVwLnBuZykiO3M6NjoicmVwZWF0IjtzOjg6InJlcGVhdC14IjtzOjE6IngiO3M6NDoibGVmdCI7czoxOiJ5IjtzOjY6ImJvdHRvbSI7fQ==" />
+		<stylevar name="header_background" value="YTo2OntzOjU6InVuaXRzIjtzOjA6IiI7czo1OiJjb2xvciI7czoxMToidHJhbnNwYXJlbnQiO3M6NToiaW1hZ2UiO3M6NDk6InVybChpbWFnZXMvQml0dGVuRnJ1aXRfZmx1aWQvZWxlbWVudHMvaGVhZGVyLmpwZykiO3M6NjoicmVwZWF0IjtzOjg6InJlcGVhdC14IjtzOjE6IngiO3M6NjoiY2VudGVyIjtzOjE6InkiO3M6MzoidG9wIjt9" />
+		<stylevar name="header_color" value="YToxOntzOjU6ImNvbG9yIjtzOjc6IiM0ODQ4NDgiO30=" />
+		<stylevar name="header_margin" value="YTo2OntzOjU6InVuaXRzIjtzOjI6InB4IjtzOjM6InRvcCI7czoxOiIwIjtzOjU6InJpZ2h0IjtzOjE6IjAiO3M6NjoiYm90dG9tIjtzOjE6IjAiO3M6NDoibGVmdCI7czoxOiIwIjtzOjQ6InNhbWUiO3M6MToiMCI7fQ==" />
+		<stylevar name="heavy_border" value="YTo0OntzOjU6InVuaXRzIjtzOjA6IiI7czo1OiJ3aWR0aCI7czoxOiIwIjtzOjU6InN0eWxlIjtzOjA6IiI7czo1OiJjb2xvciI7czo3OiIjZDhkOWRhIjt9" />
+		<stylevar name="highlight_background" value="YTo2OntzOjU6InVuaXRzIjtzOjA6IiI7czo1OiJjb2xvciI7czo3OiIjZTNlM2UzIjtzOjU6ImltYWdlIjtzOjA6IiI7czo2OiJyZXBlYXQiO3M6ODoicmVwZWF0LXgiO3M6MToieCI7czowOiIiO3M6MToieSI7czowOiIiO30=" />
+		<stylevar name="highlight_color" value="YToxOntzOjU6ImNvbG9yIjtzOjc6IiM0ODQ4NDgiO30=" />
+		<stylevar name="imgdir_button" value="YToxOntzOjg6ImltYWdlZGlyIjtzOjMyOiJpbWFnZXMvQml0dGVuRnJ1aXRfZmx1aWQvYnV0dG9ucyI7fQ==" />
+		<stylevar name="imgdir_cms" value="YToxOntzOjg6ImltYWdlZGlyIjtzOjI4OiJpbWFnZXMvQml0dGVuRnJ1aXRfZmx1aWQvY21zIjt9" />
+		<stylevar name="imgdir_misc" value="YToxOntzOjg6ImltYWdlZGlyIjtzOjI5OiJpbWFnZXMvQml0dGVuRnJ1aXRfZmx1aWQvbWlzYyI7fQ==" />
+		<stylevar name="imgdir_pagination" value="YToxOntzOjg6ImltYWdlZGlyIjtzOjM1OiJpbWFnZXMvQml0dGVuRnJ1aXRfZmx1aWQvcGFnaW5hdGlvbiI7fQ==" />
+		<stylevar name="imgdir_searchresults" value="YToxOntzOjg6ImltYWdlZGlyIjtzOjM5OiJpbWFnZXMvQml0dGVuRnJ1aXRfZmx1aWQvc2VhcmNoX3Jlc3VsdHMiO30=" />
+		<stylevar name="imgdir_siteicons" value="YToxOntzOjg6ImltYWdlZGlyIjtzOjM1OiJpbWFnZXMvQml0dGVuRnJ1aXRfZmx1aWQvc2l0ZV9pY29ucyI7fQ==" />
+		<stylevar name="imgdir_statusicon" value="YToxOntzOjg6ImltYWdlZGlyIjtzOjM1OiJpbWFnZXMvQml0dGVuRnJ1aXRfZmx1aWQvc3RhdHVzaWNvbiI7fQ==" />
+		<stylevar name="imodhilite_backgroundColor" value="YToxOntzOjU6ImNvbG9yIjtzOjc6IiNlM2UzZTMiO30=" />
+		<stylevar name="input_border" value="YTo0OntzOjU6ImNvbG9yIjtzOjc6IiNkOGQ5ZGEiO3M6NToid2lkdGgiO3M6MToiMSI7czo1OiJ1bml0cyI7czoyOiJweCI7czo1OiJzdHlsZSI7czo1OiJzb2xpZCI7fQ==" />
+		<stylevar name="input_color" value="YToxOntzOjU6ImNvbG9yIjtzOjEyOiJyZ2IoMCwgMCwgMCkiO30=" />
+		<stylevar name="input_focus_background" value="YTo2OntzOjU6InVuaXRzIjtzOjA6IiI7czo1OiJjb2xvciI7czoxODoicmdiKDI1NSwgMjU1LCAyNTUpIjtzOjU6ImltYWdlIjtzOjA6IiI7czo2OiJyZXBlYXQiO3M6MDoiIjtzOjE6IngiO3M6MDoiIjtzOjE6InkiO3M6MDoiIjt9" />
+		<stylevar name="light_border" value="YTo0OntzOjU6InVuaXRzIjtzOjA6IiI7czo1OiJ3aWR0aCI7czoxOiIwIjtzOjU6InN0eWxlIjtzOjA6IiI7czo1OiJjb2xvciI7czo3OiIjZDhkOWRhIjt9" />
+		<stylevar name="link_color" value="YToxOntzOjU6ImNvbG9yIjtzOjc6IiM1ZjVmNWYiO30=" />
+		<stylevar name="linkhover_color" value="YToxOntzOjU6ImNvbG9yIjtzOjc6IiM4YzhjOGMiO30=" />
+		<stylevar name="linkhover_textDecoration" value="YTo1OntzOjQ6Im5vbmUiO3M6MToiMCI7czo5OiJ1bmRlcmxpbmUiO3M6MToiMSI7czo4OiJvdmVybGluZSI7czoxOiIwIjtzOjEyOiJsaW5lLXRocm91Z2giO3M6MToiMCI7czo1OiJibGluayI7czoxOiIwIjt9" />
+		<stylevar name="mid_border" value="YTo0OntzOjU6InVuaXRzIjtzOjI6InB4IjtzOjU6IndpZHRoIjtzOjE6IjEiO3M6NToic3R5bGUiO3M6NToic29saWQiO3M6NToiY29sb3IiO3M6NzoiI2Q4ZDlkYSI7fQ==" />
+		<stylevar name="navbar_background" value="YTo2OntzOjU6InVuaXRzIjtzOjA6IiI7czo1OiJjb2xvciI7czoxMToidHJhbnNwYXJlbnQiO3M6NToiaW1hZ2UiO3M6MDoiIjtzOjY6InJlcGVhdCI7czowOiIiO3M6MToieCI7czowOiIiO3M6MToieSI7czowOiIiO30=" />
+		<stylevar name="navbar_border" value="YTo0OntzOjU6InVuaXRzIjtzOjI6InB4IjtzOjU6IndpZHRoIjtzOjE6IjEiO3M6NToic3R5bGUiO3M6NToic29saWQiO3M6NToiY29sb3IiO3M6MTE6InRyYW5zcGFyZW50Ijt9" />
+		<stylevar name="navbar_color" value="YToxOntzOjU6ImNvbG9yIjtzOjE4OiJyZ2IoMjU1LCAyNTUsIDI1NSkiO30=" />
+		<stylevar name="navbar_link_color" value="YToxOntzOjU6ImNvbG9yIjtzOjc6IiM4YzhjOGMiO30=" />
+		<stylevar name="navbar_linkhover_color" value="YToxOntzOjU6ImNvbG9yIjtzOjc6IiM4YzhjOGMiO30=" />
+		<stylevar name="navbar_menu_height" value="YToyOntzOjU6InVuaXRzIjtzOjI6InB4IjtzOjQ6InNpemUiO3M6MjoiMjYiO30=" />
+		<stylevar name="navbar_popupmenu_link_color" value="YToxOntzOjU6ImNvbG9yIjtzOjc6IiM0ODQ4NDgiO30=" />
+		<stylevar name="navbar_popupmenu_link_hover_background" value="YToxOntzOjU6ImNvbG9yIjtzOjc6IiNlM2UzZTMiO30=" />
+		<stylevar name="navbar_popupmenu_link_hover_color" value="YToxOntzOjU6ImNvbG9yIjtzOjc6IiM0ODQ4NDgiO30=" />
+		<stylevar name="navbar_tab_background" value="YTo2OntzOjU6InVuaXRzIjtzOjA6IiI7czo1OiJjb2xvciI7czowOiIiO3M6NToiaW1hZ2UiO3M6NDk6InVybChpbWFnZXMvQml0dGVuRnJ1aXRfZmx1aWQvZWxlbWVudHMvbmF2YmFyLmpwZykiO3M6NjoicmVwZWF0IjtzOjg6InJlcGVhdC14IjtzOjE6IngiO3M6MDoiIjtzOjE6InkiO3M6MDoiIjt9" />
+		<stylevar name="navbar_tab_bevel" value="YTo0OntzOjU6InVuaXRzIjtzOjI6InB4IjtzOjU6IndpZHRoIjtzOjE6IjEiO3M6NToic3R5bGUiO3M6NToic29saWQiO3M6NToiY29sb3IiO3M6MTY6InJnYigxOTcsMTk3LDE5NykiO30=" />
+		<stylevar name="navbar_tab_border" value="YTo0OntzOjU6InVuaXRzIjtzOjI6InB4IjtzOjU6IndpZHRoIjtzOjE6IjEiO3M6NToic3R5bGUiO3M6NToic29saWQiO3M6NToiY29sb3IiO3M6NzoiI2M1YzVjNSI7fQ==" />
+		<stylevar name="navbar_tab_color" value="YToxOntzOjU6ImNvbG9yIjtzOjE4OiJyZ2IoMjU1LCAyNTUsIDI1NSkiO30=" />
+		<stylevar name="navbar_tab_selected_background" value="YTo2OntzOjU6InVuaXRzIjtzOjA6IiI7czo1OiJjb2xvciI7czoxMToidHJhbnNwYXJlbnQiO3M6NToiaW1hZ2UiO3M6NTc6InVybChpbWFnZXMvQml0dGVuRnJ1aXRfZmx1aWQvZWxlbWVudHMvc2VsZWN0ZWRidXR0b24uanBnKSI7czo2OiJyZXBlYXQiO3M6ODoicmVwZWF0LXgiO3M6MToieCI7czowOiIiO3M6MToieSI7czowOiIiO30=" />
+		<stylevar name="navbar_tab_selected_color" value="YToxOntzOjU6ImNvbG9yIjtzOjE4OiJyZ2IoMjU1LCAyNTUsIDI1NSkiO30=" />
+		<stylevar name="navbar_tab_size" value="YTozOntzOjU6InVuaXRzIjtzOjI6InB4IjtzOjU6IndpZHRoIjtzOjI6IjgwIjtzOjY6ImhlaWdodCI7czoyOiIyNSI7fQ==" />
+		<stylevar name="navlinks_background" value="YTo2OntzOjU6InVuaXRzIjtzOjA6IiI7czo1OiJjb2xvciI7czoxODoicmdiKDI1NSwgMjU1LCAyNTUpIjtzOjU6ImltYWdlIjtzOjA6IiI7czo2OiJyZXBlYXQiO3M6MDoiIjtzOjE6IngiO3M6MDoiIjtzOjE6InkiO3M6MDoiIjt9" />
+		<stylevar name="navlinks_border_top" value="YTo0OntzOjU6InVuaXRzIjtzOjI6InB4IjtzOjU6IndpZHRoIjtzOjE6IjEiO3M6NToic3R5bGUiO3M6NToic29saWQiO3M6NToiY29sb3IiO3M6NzoiI2Q4ZDlkYSI7fQ==" />
+		<stylevar name="navlinks_color" value="YToxOntzOjU6ImNvbG9yIjtzOjc6IiM1ZjVmNWYiO30=" />
+		<stylevar name="notices_background" value="YTo2OntzOjU6InVuaXRzIjtzOjA6IiI7czo1OiJjb2xvciI7czo3OiIjZjBmMGYwIjtzOjU6ImltYWdlIjtzOjA6IiI7czo2OiJyZXBlYXQiO3M6MDoiIjtzOjE6IngiO3M6MDoiIjtzOjE6InkiO3M6MDoiIjt9" />
+		<stylevar name="notices_shadow_color" value="YToxOntzOjY6InN0cmluZyI7czo3OiIjZDJkMmQyIjt9" />
+		<stylevar name="pagetitle_color" value="YToxOntzOjU6ImNvbG9yIjtzOjc6IiM0ODQ4NDgiO30=" />
+		<stylevar name="pagination_background" value="YTo2OntzOjU6InVuaXRzIjtzOjA6IiI7czo1OiJjb2xvciI7czoxODoicmdiKDIwNCwgMjA0LCAyMDQpIjtzOjU6ImltYWdlIjtzOjA6IiI7czo2OiJyZXBlYXQiO3M6MDoiIjtzOjE6IngiO3M6MDoiIjtzOjE6InkiO3M6MDoiIjt9" />
+		<stylevar name="pagination_border" value="YTo0OntzOjU6InVuaXRzIjtzOjI6InB4IjtzOjU6IndpZHRoIjtzOjE6IjEiO3M6NToic3R5bGUiO3M6NToic29saWQiO3M6NToiY29sb3IiO3M6NzoiI2Q4ZDlkYSI7fQ==" />
+		<stylevar name="pagination_color" value="YToxOntzOjU6ImNvbG9yIjtzOjc6IiM0ODQ4NDgiO30=" />
+		<stylevar name="pagination_current_background" value="YTo2OntzOjU6InVuaXRzIjtzOjA6IiI7czo1OiJjb2xvciI7czo3OiIjZTllOWU5IjtzOjU6ImltYWdlIjtzOjM3OiJ1cmwoaW1hZ2VzL2J1dHRvbnMvbmV3YnRuX21pZGRsZS5wbmcpIjtzOjY6InJlcGVhdCI7czo4OiJyZXBlYXQteCI7czoxOiJ4IjtzOjA6IiI7czoxOiJ5IjtzOjA6IiI7fQ==" />
+		<stylevar name="pagination_current_border" value="YTo0OntzOjU6InVuaXRzIjtzOjI6InB4IjtzOjU6IndpZHRoIjtzOjE6IjEiO3M6NToic3R5bGUiO3M6NToic29saWQiO3M6NToiY29sb3IiO3M6NzoiI2M1YzVjNSI7fQ==" />
+		<stylevar name="pagination_current_color" value="YToxOntzOjU6ImNvbG9yIjtzOjc6IiM0ODQ4NDgiO30=" />
+		<stylevar name="pagination_hover_border" value="YTo0OntzOjU6InVuaXRzIjtzOjI6InB4IjtzOjU6IndpZHRoIjtzOjE6IjEiO3M6NToic3R5bGUiO3M6NToic29saWQiO3M6NToiY29sb3IiO3M6NzoiI2Q4ZDlkYSI7fQ==" />
+		<stylevar name="picture_border" value="YTo0OntzOjU6InVuaXRzIjtzOjI6InB4IjtzOjU6IndpZHRoIjtzOjE6IjEiO3M6NToic3R5bGUiO3M6NToic29saWQiO3M6NToiY29sb3IiO3M6NzoiI2Q4ZDlkYSI7fQ==" />
+		<stylevar name="picturelink_img_shadow_color" value="YToxOntzOjU6ImNvbG9yIjtzOjc6IiNkOGQ5ZGEiO30=" />
+		<stylevar name="poll_background" value="YTo2OntzOjU6InVuaXRzIjtzOjI6InB4IjtzOjU6ImNvbG9yIjtzOjE4OiJyZ2IoMjU1LCAyNTUsIDI1NSkiO3M6NToiaW1hZ2UiO3M6Mzk6InVybChpbWFnZXMvbWlzYy9wb2xsX3F1ZXN0aW9uX21hcmsucG5nKSI7czo2OiJyZXBlYXQiO3M6OToibm8tcmVwZWF0IjtzOjE6IngiO3M6MjoiMzAiO3M6MToieSI7czoyOiIxMCI7fQ==" />
+		<stylevar name="pollbar1_background" value="YTo2OntzOjU6InVuaXRzIjtzOjA6IiI7czo1OiJjb2xvciI7czo3OiIjZTllOWU5IjtzOjU6ImltYWdlIjtzOjA6IiI7czo2OiJyZXBlYXQiO3M6MDoiIjtzOjE6IngiO3M6MDoiIjtzOjE6InkiO3M6MDoiIjt9" />
+		<stylevar name="pollbar2_background" value="YTo2OntzOjU6InVuaXRzIjtzOjA6IiI7czo1OiJjb2xvciI7czoxODoicmdiKDE1MywgMTUzLCAxNTMpIjtzOjU6ImltYWdlIjtzOjA6IiI7czo2OiJyZXBlYXQiO3M6MDoiIjtzOjE6IngiO3M6MDoiIjtzOjE6InkiO3M6MDoiIjt9" />
+		<stylevar name="pollbar3_background" value="YTo2OntzOjU6InVuaXRzIjtzOjA6IiI7czo1OiJjb2xvciI7czoxODoicmdiKDEwMiwgMTAyLCAxMDIpIjtzOjU6ImltYWdlIjtzOjA6IiI7czo2OiJyZXBlYXQiO3M6MDoiIjtzOjE6IngiO3M6MDoiIjtzOjE6InkiO3M6MDoiIjt9" />
+		<stylevar name="pollbar4_background" value="YTo2OntzOjU6InVuaXRzIjtzOjA6IiI7czo1OiJjb2xvciI7czoxNToicmdiKDUxLCA1MSwgNTEpIjtzOjU6ImltYWdlIjtzOjA6IiI7czo2OiJyZXBlYXQiO3M6MDoiIjtzOjE6IngiO3M6MDoiIjtzOjE6InkiO3M6MDoiIjt9" />
+		<stylevar name="pollbar5_background" value="YTo2OntzOjU6InVuaXRzIjtzOjA6IiI7czo1OiJjb2xvciI7czoxMjoicmdiKDAsIDAsIDApIjtzOjU6ImltYWdlIjtzOjA6IiI7czo2OiJyZXBlYXQiO3M6MDoiIjtzOjE6IngiO3M6MDoiIjtzOjE6InkiO3M6MDoiIjt9" />
+		<stylevar name="pollbar6_background" value="YTo2OntzOjU6InVuaXRzIjtzOjA6IiI7czo1OiJjb2xvciI7czo3OiIjZjBmMGYwIjtzOjU6ImltYWdlIjtzOjA6IiI7czo2OiJyZXBlYXQiO3M6MDoiIjtzOjE6IngiO3M6MDoiIjtzOjE6InkiO3M6MDoiIjt9" />
+		<stylevar name="popupmenu_background" value="YTo2OntzOjU6InVuaXRzIjtzOjA6IiI7czo1OiJjb2xvciI7czo3OiIjZTllOWU5IjtzOjU6ImltYWdlIjtzOjM5OiJ1cmwoaW1hZ2VzL21pc2MvYmxvZy90b3AtaGlnaGxpZ2h0LnBuZykiO3M6NjoicmVwZWF0IjtzOjg6InJlcGVhdC14IjtzOjE6IngiO3M6MDoiIjtzOjE6InkiO3M6MDoiIjt9" />
+		<stylevar name="popupmenu_border" value="YTo0OntzOjU6InVuaXRzIjtzOjI6InB4IjtzOjU6IndpZHRoIjtzOjE6IjEiO3M6NToic3R5bGUiO3M6NToic29saWQiO3M6NToiY29sb3IiO3M6NzoiI2Q4ZDlkYSI7fQ==" />
+		<stylevar name="popupmenu_height" value="YToyOntzOjU6InVuaXRzIjtzOjI6InB4IjtzOjQ6InNpemUiO3M6MjoiMjUiO30=" />
+		<stylevar name="popupmenu_link_hover_background" value="YToxOntzOjU6ImNvbG9yIjtzOjc6IiNlM2UzZTMiO30=" />
+		<stylevar name="postbit_border" value="YTo0OntzOjU6InVuaXRzIjtzOjI6InB4IjtzOjU6IndpZHRoIjtzOjE6IjEiO3M6NToic3R5bGUiO3M6NToic29saWQiO3M6NToiY29sb3IiO3M6NzoiI2Q4ZDlkYSI7fQ==" />
+		<stylevar name="postbit_color" value="YToxOntzOjU6ImNvbG9yIjtzOjc6IiM0ODQ4NDgiO30=" />
+		<stylevar name="postbit_control_background" value="YToxOntzOjU6ImNvbG9yIjtzOjc6IiNlOWU5ZTkiO30=" />
+		<stylevar name="postbit_control_border" value="YTo0OntzOjU6InVuaXRzIjtzOjI6InB4IjtzOjU6IndpZHRoIjtzOjE6IjAiO3M6NToic3R5bGUiO3M6NToic29saWQiO3M6NToiY29sb3IiO3M6NzoiI2Q4ZDlkYSI7fQ==" />
+		<stylevar name="postbit_control_color" value="YToxOntzOjU6ImNvbG9yIjtzOjc6IiM0ODQ4NDgiO30=" />
+		<stylevar name="postbit_control_hover_background" value="YToxOntzOjU6ImNvbG9yIjtzOjA6IiI7fQ==" />
+		<stylevar name="postbit_control_hover_color" value="YToxOntzOjU6ImNvbG9yIjtzOjc6IiM0ODQ4NDgiO30=" />
+		<stylevar name="postbit_deleted_background" value="YTo2OntzOjU6InVuaXRzIjtzOjA6IiI7czo1OiJjb2xvciI7czoxODoicmdiKDI1NSwgMjU1LCAyNTUpIjtzOjU6ImltYWdlIjtzOjA6IiI7czo2OiJyZXBlYXQiO3M6MDoiIjtzOjE6IngiO3M6MDoiIjtzOjE6InkiO3M6MDoiIjt9" />
+		<stylevar name="postbit_foot_background" value="YTo2OntzOjU6InVuaXRzIjtzOjA6IiI7czo1OiJjb2xvciI7czo3OiIjZTllOWU5IjtzOjU6ImltYWdlIjtzOjA6IiI7czo2OiJyZXBlYXQiO3M6MDoiIjtzOjE6IngiO3M6MDoiIjtzOjE6InkiO3M6MDoiIjt9" />
+		<stylevar name="postbit_foot_separator" value="YToyOntzOjU6ImNvbG9yIjtzOjc6IiNjNWM1YzUiO3M6NToic3R5bGUiO3M6NToic29saWQiO30=" />
+		<stylevar name="postbit_userinfo_background" value="YTo2OntzOjU6InVuaXRzIjtzOjA6IiI7czo1OiJjb2xvciI7czoxODoicmdiKDI1NSwgMjU1LCAyNTUpIjtzOjU6ImltYWdlIjtzOjA6IiI7czo2OiJyZXBlYXQiO3M6MDoiIjtzOjE6IngiO3M6MDoiIjtzOjE6InkiO3M6MDoiIjt9" />
+		<stylevar name="postbit_userinfo_border" value="YTo0OntzOjU6InVuaXRzIjtzOjI6InB4IjtzOjU6IndpZHRoIjtzOjE6IjEiO3M6NToic3R5bGUiO3M6NToic29saWQiO3M6NToiY29sb3IiO3M6NzoiI2Q4ZDlkYSI7fQ==" />
+		<stylevar name="postbithead_background" value="YTo2OntzOjU6InVuaXRzIjtzOjA6IiI7czo1OiJjb2xvciI7czoxMToidHJhbnNwYXJlbnQiO3M6NToiaW1hZ2UiO3M6NTA6InVybChpbWFnZXMvQml0dGVuRnJ1aXRfZmx1aWQvZWxlbWVudHMvaGVhZGluZy5qcGcpIjtzOjY6InJlcGVhdCI7czo4OiJyZXBlYXQteCI7czoxOiJ4IjtzOjA6IiI7czoxOiJ5IjtzOjA6IiI7fQ==" />
+		<stylevar name="postbithead_border" value="YTo0OntzOjU6InVuaXRzIjtzOjI6InB4IjtzOjU6IndpZHRoIjtzOjE6IjEiO3M6NToic3R5bGUiO3M6NToic29saWQiO3M6NToiY29sb3IiO3M6NzoiI2Q4ZDlkYSI7fQ==" />
+		<stylevar name="postbitlite_header_background" value="YTo2OntzOjU6InVuaXRzIjtzOjA6IiI7czo1OiJjb2xvciI7czoxODoicmdiKDI1NSwgMjU1LCAyNTUpIjtzOjU6ImltYWdlIjtzOjA6IiI7czo2OiJyZXBlYXQiO3M6MDoiIjtzOjE6IngiO3M6MDoiIjtzOjE6InkiO3M6MDoiIjt9" />
+		<stylevar name="postbitlite_header_border" value="YTo0OntzOjU6InVuaXRzIjtzOjI6InB4IjtzOjU6IndpZHRoIjtzOjE6IjEiO3M6NToic3R5bGUiO3M6NToic29saWQiO3M6NToiY29sb3IiO3M6NzoiI2M1YzVjNSI7fQ==" />
+		<stylevar name="postbitlite_header_link_color" value="YToxOntzOjU6ImNvbG9yIjtzOjE4OiJyZ2IoMTUzLCAxNTMsIDE1MykiO30=" />
+		<stylevar name="profile_content_subsection_border" value="YTo0OntzOjU6InVuaXRzIjtzOjI6InB4IjtzOjU6IndpZHRoIjtzOjE6IjEiO3M6NToic3R5bGUiO3M6NToic29saWQiO3M6NToiY29sb3IiO3M6NzoiI2Q4ZDlkYSI7fQ==" />
+		<stylevar name="profile_sidebar_avatar_border" value="YTo0OntzOjU6InVuaXRzIjtzOjI6InB4IjtzOjU6IndpZHRoIjtzOjE6IjEiO3M6NToic3R5bGUiO3M6NToic29saWQiO3M6NToiY29sb3IiO3M6NzoiI2Q4ZDlkYSI7fQ==" />
+		<stylevar name="secondarycontent_header_background" value="YTo2OntzOjU6InVuaXRzIjtzOjA6IiI7czo1OiJjb2xvciI7czoxMToidHJhbnNwYXJlbnQiO3M6NToiaW1hZ2UiO3M6NTA6InVybChpbWFnZXMvQml0dGVuRnJ1aXRfZmx1aWQvZWxlbWVudHMvaGVhZGluZy5qcGcpIjtzOjY6InJlcGVhdCI7czo4OiJyZXBlYXQteCI7czoxOiJ4IjtzOjA6IiI7czoxOiJ5IjtzOjA6IiI7fQ==" />
+		<stylevar name="secondarycontent_header_border" value="YTo0OntzOjU6InVuaXRzIjtzOjI6InB4IjtzOjU6IndpZHRoIjtzOjE6IjEiO3M6NToic3R5bGUiO3M6NToic29saWQiO3M6NToiY29sb3IiO3M6NzoiI2M1YzVjNSI7fQ==" />
+		<stylevar name="shade_color" value="YToxOntzOjU6ImNvbG9yIjtzOjc6IiM1ZjVmNWYiO30=" />
+		<stylevar name="shadow_color" value="YToxOntzOjU6ImNvbG9yIjtzOjc6IiNkOGQ5ZGEiO30=" />
+		<stylevar name="sidebar_content_link_color" value="YToxOntzOjU6ImNvbG9yIjtzOjc6IiM1ZjVmNWYiO30=" />
+		<stylevar name="sidebar_content_link_hover_color" value="YToxOntzOjU6ImNvbG9yIjtzOjc6IiM1ZjVmNWYiO30=" />
+		<stylevar name="sidebar_header_link_color" value="YToxOntzOjU6ImNvbG9yIjtzOjE4OiJyZ2IoMTAyLCAxMDIsIDEwMikiO30=" />
+		<stylevar name="signature_border" value="YTo0OntzOjU6InVuaXRzIjtzOjI6InB4IjtzOjU6IndpZHRoIjtzOjE6IjEiO3M6NToic3R5bGUiO3M6NToic29saWQiO3M6NToiY29sb3IiO3M6NzoiI2Q4ZDlkYSI7fQ==" />
+		<stylevar name="tabslight_border" value="YTo0OntzOjU6InVuaXRzIjtzOjI6InB4IjtzOjU6IndpZHRoIjtzOjE6IjEiO3M6NToic3R5bGUiO3M6NToic29saWQiO3M6NToiY29sb3IiO3M6NzoiI2Q4ZDlkYSI7fQ==" />
+		<stylevar name="tabslight_selected_background" value="YTo2OntzOjU6InVuaXRzIjtzOjA6IiI7czo1OiJjb2xvciI7czoxODoicmdiKDI1NSwgMjU1LCAyNTUpIjtzOjU6ImltYWdlIjtzOjA6IiI7czo2OiJyZXBlYXQiO3M6MDoiIjtzOjE6IngiO3M6MDoiIjtzOjE6InkiO3M6MDoiIjt9" />
+		<stylevar name="threadbit_alt_background" value="YTo2OntzOjU6InVuaXRzIjtzOjA6IiI7czo1OiJjb2xvciI7czoxODoicmdiKDI1NSwgMjU1LCAyNTUpIjtzOjU6ImltYWdlIjtzOjMzOiJ1cmwoaW1hZ2VzL2dyYWRpZW50cy9ncmV5LXVwLnBuZykiO3M6NjoicmVwZWF0IjtzOjg6InJlcGVhdC14IjtzOjE6IngiO3M6NDoibGVmdCI7czoxOiJ5IjtzOjY6ImJvdHRvbSI7fQ==" />
+		<stylevar name="threadbit_border" value="YTo0OntzOjU6InVuaXRzIjtzOjI6InB4IjtzOjU6IndpZHRoIjtzOjE6IjEiO3M6NToic3R5bGUiO3M6NToic29saWQiO3M6NToiY29sb3IiO3M6NzoiI2Q4ZDlkYSI7fQ==" />
+		<stylevar name="threadbit_hilite_background" value="YTo2OntzOjU6InVuaXRzIjtzOjA6IiI7czo1OiJjb2xvciI7czoxODoicmdiKDI1NSwgMjU1LCAyNTUpIjtzOjU6ImltYWdlIjtzOjMzOiJ1cmwoaW1hZ2VzL2dyYWRpZW50cy9ncmV5LXVwLnBuZykiO3M6NjoicmVwZWF0IjtzOjg6InJlcGVhdC14IjtzOjE6IngiO3M6NDoibGVmdCI7czoxOiJ5IjtzOjY6ImJvdHRvbSI7fQ==" />
+		<stylevar name="threadlisthead_background" value="YTo2OntzOjU6InVuaXRzIjtzOjA6IiI7czo1OiJjb2xvciI7czoxMToidHJhbnNwYXJlbnQiO3M6NToiaW1hZ2UiO3M6NTA6InVybChpbWFnZXMvQml0dGVuRnJ1aXRfZmx1aWQvZWxlbWVudHMvaGVhZGluZy5qcGcpIjtzOjY6InJlcGVhdCI7czo4OiJyZXBlYXQteCI7czoxOiJ4IjtzOjA6IiI7czoxOiJ5IjtzOjA6IiI7fQ==" />
+		<stylevar name="threadlisthead_border" value="YTo0OntzOjU6InVuaXRzIjtzOjI6InB4IjtzOjU6IndpZHRoIjtzOjE6IjEiO3M6NToic3R5bGUiO3M6NToic29saWQiO3M6NToiY29sb3IiO3M6NzoiI2M1YzVjNSI7fQ==" />
+		<stylevar name="time_color" value="YToxOntzOjU6ImNvbG9yIjtzOjc6IiM0ODQ4NDgiO30=" />
+		<stylevar name="titleimage" value="YToxOntzOjM6InVybCI7czo0OToiaW1hZ2VzL0JpdHRlbkZydWl0X2ZsdWlkL2VsZW1lbnRzL3RpdGxlX2ltYWdlLnBuZyI7fQ==" />
+		<stylevar name="toolsmenu_linkhover_color" value="YToxOntzOjU6ImNvbG9yIjtzOjE4OiJyZ2IoMTAyLCAxMDIsIDEwMikiO30=" />
+		<stylevar name="toplinks_background" value="YTo2OntzOjU6InVuaXRzIjtzOjA6IiI7czo1OiJjb2xvciI7czo3OiIjODc4Nzg3IjtzOjU6ImltYWdlIjtzOjA6IiI7czo2OiJyZXBlYXQiO3M6MDoiIjtzOjE6IngiO3M6MDoiIjtzOjE6InkiO3M6MDoiIjt9" />
+		<stylevar name="toplinks_hilite_background" value="YTo2OntzOjU6InVuaXRzIjtzOjA6IiI7czo1OiJjb2xvciI7czo0OiIjMDAwIjtzOjU6ImltYWdlIjtzOjA6IiI7czo2OiJyZXBlYXQiO3M6MDoiIjtzOjE6IngiO3M6MDoiIjtzOjE6InkiO3M6MDoiIjt9" />
+		<stylevar name="unknownsgicon" value="YToxOntzOjM6InVybCI7czo0NDoiaW1hZ2VzL0JpdHRlbkZydWl0X2ZsdWlkL21pc2MvdW5rbm93bl9zZy5naWYiO30=" />
+		<stylevar name="usercp_nav_blockbody_border" value="YTo0OntzOjU6InVuaXRzIjtzOjI6InB4IjtzOjU6IndpZHRoIjtzOjE6IjEiO3M6NToic3R5bGUiO3M6NToic29saWQiO3M6NToiY29sb3IiO3M6NzoiI2Q4ZDlkYSI7fQ==" />
+	</stylevars>
+</style>
