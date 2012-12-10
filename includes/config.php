@@ -53,13 +53,13 @@ $config['Database']['force_sql_mode'] = false;
 	//
 	//	Note: If you are using IIS 7+ and MySQL is on the same machine, you 
 	//	need to use 127.0.0.1 instead of localhost
-$config['MasterServer']['servername'] = 'roadraceautox.chk1xyjrhkgw.us-east-1.rds.amazonaws.com';
+$config['MasterServer']['servername'] = 'localhost';
 $config['MasterServer']['port'] = 3306;
 
 	//	****** MASTER DATABASE USERNAME & PASSWORD ******
 	//	This is the username and password you use to access MySQL.
 	//	These must be obtained through your webhost.
-$config['MasterServer']['username'] = 'roadraceautox';
+$config['MasterServer']['username'] = 'root';
 $config['MasterServer']['password'] = 'janocomp69';
 
 	//	****** MASTER DATABASE PERSISTENT CONNECTIONS ******
