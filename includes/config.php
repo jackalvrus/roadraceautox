@@ -60,7 +60,7 @@ $config['MasterServer']['port'] = 3306;
 	//	This is the username and password you use to access MySQL.
 	//	These must be obtained through your webhost.
 $config['MasterServer']['username'] = 'root';
-$config['MasterServer']['password'] = '';
+$config['MasterServer']['password'] = 'CHANGEME';
 
 	//	****** MASTER DATABASE PERSISTENT CONNECTIONS ******
 	//	This option allows you to turn persistent connections to MySQL on or off.
