@@ -3,7 +3,7 @@
 || #################################################################### ||
 || # vBulletin 4.2.0 Patch Level 3
 || # ---------------------------------------------------------------- # ||
-|| # All PHP code in this file is ©2000-2012 vBulletin Solutions Inc. # ||
+|| # All PHP code in this file is Â©2000-2012 vBulletin Solutions Inc. # ||
 || # This file may not be redistributed in whole or significant part. # ||
 || # ---------------- VBULLETIN IS NOT FREE SOFTWARE ---------------- # ||
 || # http://www.vbulletin.com | http://www.vbulletin.com/license.html # ||
@@ -60,7 +60,7 @@ $config['MasterServer']['port'] = 3306;
 	//	This is the username and password you use to access MySQL.
 	//	These must be obtained through your webhost.
 $config['MasterServer']['username'] = 'root';
-$config['MasterServer']['password'] = 'janocomp69';
+$config['MasterServer']['password'] = '';
 
 	//	****** MASTER DATABASE PERSISTENT CONNECTIONS ******
 	//	This option allows you to turn persistent connections to MySQL on or off.
